@@ -1,5 +1,5 @@
 # 🧠 Fake News Detection App 🔍📰  
-![fake-news-banner](https://github.com/user-attachments/assets/fake-news-banner.jpg)
+![image](https://github.com/user-attachments/assets/6836e4a4-da54-45be-a5e0-5bec84f67519)
 
 📌 An NLP-powered web application that detects whether a piece of news is **real or fake**, using machine learning and Flask – deployed on Render.
 
@@ -77,7 +77,9 @@ These are pre-cleaned news articles from Kaggle used for training the model.
 
 | 🔤 Input Form | ✅ Output Result |
 |--------------|------------------|
-| ![input-news](https://github.com/user-attachments/assets/input.png) | ![output-result](https://github.com/user-attachments/assets/output.png) |
+| ![Screenshot 2025-04-06 145931](https://github.com/user-attachments/assets/4ece6f65-285b-4161-a56d-1bd5b3c5d6de) | Check |
+| ![Screenshot 2025-04-06 150019](https://github.com/user-attachments/assets/4ec81ec0-1c65-4c57-99db-58c8b1aa52a3) | Real |
+| ![Screenshot 2025-04-06 150119](https://github.com/user-attachments/assets/11c6df1a-6bf5-4044-a728-3fcbff637e63) | Fake |
 
 ---
 
@@ -118,10 +120,10 @@ http://localhost:5000
 
 ## 🧪 Try It Yourself – Sample Inputs
 
-> **Headline:** “NASA confirms presence of water molecules on sunlit moon areas.”  
+> **Headline:** “Trump signs tax, government spending bills into law.”  
 🟢 **Output:** Real
 
-> **Headline:** “Obama caught operating secret deep-state bunker in Hawaii.”  
+> **Headline:** “White House Panics Knowing Flynn Is Going To Take Them Down”  
 🔴 **Output:** Fake
 
 ---
@@ -139,14 +141,14 @@ http://localhost:5000
 
 **Nishant Kumar**  
 🎓 Data Scientist | Python | SQL | NLP | CV | Machine Learning  
-📫 [LinkedIn](https://www.linkedin.com/in/your-link/)  
+📫 [LinkedIn](https://www.linkedin.com/in/nishant-kumar-b55951285/) 
 🌐 Portfolio: Coming Soon  
 
 ---
 
 ## 🌐 Live Demo
 
-👉 Visit the app here: [🔗 Render App Link](https://your-render-link.onrender.com)
+👉 Visit the app here: [🔗 Render App Link](https://fake-real-news-detection.onrender.com)
 
 ---
 

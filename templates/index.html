@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fake News Detector</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f7f7f7;
+            padding: 40px;
+            text-align: center;
+        }
+        textarea {
+            width: 60%;
+            height: 150px;
+            padding: 15px;
+            font-size: 16px;
+        }
+        button {
+            padding: 10px 25px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+        .result {
+            font-size: 22px;
+            margin-top: 25px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>📰 Fake News Detection App</h1>
+    <form method="POST" action="/predict">
+        <textarea name="news" placeholder="Paste your news content here..."></textarea><br>
+        <button type="submit">Check</button>
+    </form>
+    {% if prediction_text %}
+        <div class="result">{{ prediction_text }}</div>
+    {% endif %}
+</body>
+</html>
